@@ -31,3 +31,11 @@ print(type(i),i)
 print(type(f),f)
 print(type(c),c)
 print(type(b),b)
+endswith
+'''
+str1 = input("enter : \n")
+sub_s = input("substring : \n")
+print(str1.endswith (sub_s))
+sub_s = input("substring :")
+end_value = int(input("end-index : "))
+print(str1.endswith (sub_s, 0, end_value))
