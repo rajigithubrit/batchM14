@@ -1,7 +1,7 @@
 
 
 # constructor
-'print(str())'
+print(str())
 # type casting
 
 i, f, c, b =  str(43),str(4.3),str(3+4),str(6-4)
@@ -17,3 +17,9 @@ print(str1.endswith (sub_s))
 sub_s = input("substring :")
 end_value = int(input("end-index : "))
 print(str1.endswith (sub_s, 0, end_value))
+# maxsplit
+
+str3 ="Welcome to bangalore -"
+print(str3.split('o'))
+print(str3.split('o',1))
+print(str3.split(' ',2))
